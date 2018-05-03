@@ -1,0 +1,108 @@
+
+@media screen and (min-width: 445px) {
+  .hero {
+    background-image: url("./images/dog-640.jpg");
+    background-image: -webkit-image-set(
+      url("./images/dog-640.webp") 1x,
+      url("./images/dog-800.webp") 2x
+    );
+    background-image: image-set(
+      url("./images/dog-640.jpg") 1x,
+      url("./images/dog-800.jpg") 2x
+    );
+  }
+  .hero article {
+    height: 35%;
+  }
+}
+
+@media screen and (min-width: 549px) {
+  .hero {
+    background-image: url("./images/dog-320.jpg");
+    background-image: -webkit-image-set(
+      url("./images/dog-320.webp") 1x,
+      url("./images/dog-640.webp") 2x
+    );
+    background-image: image-set(
+      url("./images/dog-320.jpg") 1x,
+      url("./images/dog-640.jpg") 2x
+    );
+  }
+  .header__title {
+    font-size: 3em;
+  }
+  .hero {
+    order: 0;
+    width: 60%;
+  }
+  .hero article {
+    height: 50%;
+  }
+  .weather {
+    order: 1;
+    width: 40%;
+  }
+  .weather__next__item {
+    width: 17%;
+  }
+}
+
+@media screen and (min-width: 615px) {
+  .hero article {
+    height: 40%;
+  }
+  .snippet__thumbnail {
+    margin-bottom: 1em;
+    width: 170px;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .header__title {
+    font-size: 4em;
+  }
+  .hero {
+    width: 50%;
+    background-image: url("./images/dog-640.jpg");
+    background-image: -webkit-image-set(
+      url("./images/dog-640.webp") 1x,
+      url("./images/dog-800.webp") 2x
+    );
+    background-image: image-set(
+      url("./images/dog-640.jpg") 1x,
+      url("./images/dog-800.jpg") 2x
+    );
+  }
+  .top-news {
+    order: 1;
+    width: 50%;
+  }
+  .scores {
+    order: 2;
+    width: 50%;
+  }
+  .table_container {
+    overflow-x: auto;
+  }
+  .weather {
+    order: 3;
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 850px) {
+  main, .header__inner, .nav, .content {
+    width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .hero {
+    height: 440px;
+  }
+  .hero article {
+    height: 36%;
+  }
+  .snippet__thumbnail {
+    width: 220px;
+  }
+}

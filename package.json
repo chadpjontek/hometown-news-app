@@ -1,0 +1,16 @@
+{
+  "name": "hometown-news-app",
+  "version": "1.0.0",
+  "description": "A mock news site made accessible, responsive, and optimized as part of the Mobile Web Specialist Nanodegree Promgram",
+  "main": "index.html",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt-cwebp": "^2.1.1",
+    "grunt-responsive-images": "^1.10.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chad Pjontek",
+  "license": "ISC"
+}
