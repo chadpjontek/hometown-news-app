@@ -55,6 +55,10 @@
     margin-bottom: 1em;
     width: 170px;
   }
+  section.news.recent-news p {
+    height: 75px;
+    overflow: hidden;
+  }
 }
 
 @media screen and (min-width: 700px) {
@@ -104,5 +108,9 @@
   }
   .snippet__thumbnail {
     width: 220px;
+  }
+  section.news.recent-news p {
+    overflow: hidden;
+    height: 115px;
   }
 }
