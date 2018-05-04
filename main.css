@@ -403,18 +403,16 @@ footer {
 
 footer ul {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 footer li {
   display: inline-block;
-  margin: 0 1em;
 }
 
 footer a {
   text-decoration: none;
   color: #333;
-  padding: 1.5em;
 }
 
 footer img {
