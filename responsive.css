@@ -43,7 +43,7 @@
     width: 40%;
   }
   .weather__next__item {
-    width: 17%;
+    width: 18%;
   }
 }
 
@@ -79,14 +79,14 @@
   }
   .scores {
     order: 2;
-    width: 50%;
+    width: 67%;
   }
   .table_container {
     overflow-x: auto;
   }
   .weather {
     order: 3;
-    width: 50%;
+    width: 33%;
   }
 }
 

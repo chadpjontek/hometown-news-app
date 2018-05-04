@@ -291,6 +291,9 @@ main {
 .weather {
   flex-grow: 1;
   padding: 1em;
+  align-items: center;
+  display: grid;
+  align-content: space-evenly;
 }
 
 .weather__location {
@@ -299,13 +302,24 @@ main {
   font-size: 1.5em;
 }
 
+.weather__desc {
+  display: block;
+  font-size: 1.2em;
+  padding-top: 3px;
+}
+
 .weather__today {
-  width: 60%;
-  vertical-align: middle;
+  align-items: center;
+  display: flex;
 }
 
 .weather__today__image {
-  vertical-align: middle
+  vertical-align: middle;
+  width: 50%;
+}
+
+.weather__today__tempDeg {
+  width: 50%;
 }
 
 .weather__today__temp {
